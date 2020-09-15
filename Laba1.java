@@ -2,7 +2,7 @@ import java.util.*;
 public class Laba1 {
     
     public static double calculate(double base, double n) {
-        return Math.pow(Math.E, Math.log(base)/n);
+        return Math.pow(Math.E, Math.log(Math.abs(base))/n);
     }
     
     public static void main(String[] args){
