@@ -61,7 +61,7 @@ public class Laba1 {
     for(int i = 0; i < d.length; i++)
     {
      for(int j = 0; j < x.length; j++){
-        System.out.printf("%.4f ", M[i][j]);
+        System.out.printf("%.3f ", M[i][j]);
      }
     System.out.printf("\n");
     }
