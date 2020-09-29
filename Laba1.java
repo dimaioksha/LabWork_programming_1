@@ -9,10 +9,10 @@ public class Laba1 {
     // Задача 1: //   
     short[] d = new short[8];
     short count = 0;
-    for(int i = 2; i <= 16; i++){
+    for(short i = 2; i <= 16; i++){
         if (i % 2 == 0)
         {
-            d[count] = (short)i;
+            d[count] = i;
             //System.out.println(d[count]);
             count++;        
         }
